@@ -18,7 +18,6 @@ const CartItem = (props) => {
       dispatch(cartActions.decrement())
     }
   }
-  console.log(count)
   return (
     <li className={classes.item}>
       <header>

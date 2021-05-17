@@ -8,7 +8,6 @@ const CartButton = (props) => {
 
   const toggleCart = () => {
     dispatch(toggleActions.toggle())
-    console.log('he')
   }
 
   return (

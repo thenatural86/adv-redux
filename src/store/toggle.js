@@ -1,6 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit'
 
-const initialToggleState = { showCart: true }
+const initialToggleState = { showCart: false }
 
 const toggleSlice = createSlice({
   name: 'toggle',
