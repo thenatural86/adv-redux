@@ -14,7 +14,9 @@ const CartItem = (props) => {
   }
 
   const decrementHandler = () => {
-    dispatch(cartActions.decrement())
+    if (count > 0) {
+      dispatch(cartActions.decrement())
+    }
   }
   console.log(count)
   return (
