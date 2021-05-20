@@ -39,12 +39,6 @@ const cartSlice = createSlice({
         existingItem.totalPrice = existingItem.totalPrice - existingItem.price
       }
     },
-    increment(state) {
-      state.count++
-    },
-    decrement(state) {
-      state.count--
-    },
   },
 })
 

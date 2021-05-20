@@ -14,7 +14,6 @@ function App() {
   const toggle = useSelector((state) => state.toggle.showCart)
   const cart = useSelector((state) => state.cart)
   const notification = useSelector((state) => state.toggle.notification)
-  console.log(notification)
 
   const dispatch = useDispatch()
 
